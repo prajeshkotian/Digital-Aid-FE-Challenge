@@ -1,6 +1,6 @@
 #Steps to run the project
 
-1) First clone the repo using git clone command.
+1) First clone the repo using git clone command. (FYI Please use the **main** branch)
 2) Open the project directory after cloning and make sure Nodejs and npm are installed on your system Node js(https://nodejs.org/en/download).
 3) Once node and npm are installed run command `npm install` to install all dependencies of project.
 4) Now run command `npm start` to start the development server :) Have fun.
