@@ -7,7 +7,7 @@
 
 # Basix info of UI:
 
-I know the UI looks very basic as i did want to just concentrate on the fucntionality and usability of the web application. Just an FYI the filter applied at listing donations will also be applied to the statistics Page as i thought it would be a good feature to have. Additionally i have also added a date range filter in the statistics page to view statistics for a given date range :). I would love to have the opportunity to have a discussion about this project inperson(via call) to explain what i have done and my thought process behind it and how it could be improved. Looking forward to earing for you :).
+I know the UI looks very basic as i did want to just concentrate on the fucntionality and usability of the web application. Just an FYI the filter applied at listing donations will also be applied to the statistics Page as i thought it would be a good feature to have. Additionally i have also added a date range filter in the statistics page to view statistics for a given date range :). I would love to have the opportunity to have a discussion about this project inperson(via call) to explain what i have done and my thought process behind it and how it could be improved. Looking forward to hearing for you :).
 
 # Getting Started with Create React App
 
