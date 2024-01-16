@@ -1,3 +1,14 @@
+#Steps to run the project
+
+1) First clone the repo using git clone command.
+2) Open the project directory after cloning and make sure Nodejs and npm are installed on your system Node js(https://nodejs.org/en/download).
+3) Once node and npm are installed run command `npm install` to install all dependencies of project.
+4) Now run command `npm start` to start the development server :) Have fun.
+
+# Basix info of UI:
+
+I know the UI looks very basic as i did want to just concentrate on the fucntionality and usability of the web application. Just an FYI the filter applied at listing donations will also be applied to the statistics Page as i thought it would be a good feature to have. Additionally i have also added a date range filter in the statistics page to view statistics for a given date range :). I would love to have the opportunity to have a discussion about this project inperson(via call) to explain what i have done and my thought process behind it and how it could be improved. Looking forward to earing for you :).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
