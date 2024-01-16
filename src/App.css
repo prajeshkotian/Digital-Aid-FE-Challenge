@@ -12,6 +12,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.stats-card{
+  .ant-row{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    .ant-card{
+      border: 1px solid #282c34;
+    }
+  }
+}
 
 .App-header {
   background-color: #282c34;
@@ -22,10 +31,74 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  .header{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between !important;
+    padding: 25px;
+    border-bottom: 1px solid white;
+    .header-icons{
+      .anticon-filter{
+        margin-right: 25px;
+        :hover{
+          color: aqua;
+         }
+      }
+      .anticon-plus-square{
+        margin-right: 25px;
+        :hover{
+          color: aqua;
+         }
+      }
+    }
+  }
+  .ant-empty{
+    height: 400px;
+    width: calc(100vw - 400px);
+    margin-top: 150px;
+    .ant-empty-description{
+      color: aliceblue
+    }
+  }
+  .donation-list{
+    height: calc(100vh - 100px);
+    width: 100%;
+    overflow-y: auto;
+    .donation-card{
+      border: 1px solid #ffff;
+      border-radius: 20px;
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      /* margin-bottom: 25px; */
+      margin: 50px;
+      padding: 10px;
+      .donation-data{
+        display: flex;
+        justify-content: space-between;
+        width: 500px
+      }
+      .donation-option-btn{
+        display: flex;
+        justify-content: space-evenly;
+        width: 150px;
+        .anticon-edit{
+          :hover{
+            color: aqua;
+           }
+        }
+        .anticon-delete{
+          :hover{
+            color: aqua;
+          } 
+        }
+      }
+    }
+  }
 }
 
 @keyframes App-logo-spin {
